@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Teori</title>
+    <style>
+        /* Gaya umum */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #1a73e8;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #333;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+            display: none;
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        /* Mode berantakan */
+        .messy-mode {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: #ff0000;
+            background-color: #ffcccb;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        .messy-mode h1 {
+            font-size: 30px;
+            color: #ff007f;
+        }
+
+        .messy-mode h2 {
+            font-size: 22px;
+            color: #ff4500;
+        }
+
+        .messy-mode h3 {
+            font-size: 18px;
+            color: #ff0000;
+        }
+
+        .messy-mode p {
+            color: #ff0000;
+            background-color: #ffd700;
+            font-weight: bold;
+        }
+
+        /* Tombol mode */
+        .mode-button {
+            background-color: #1a73e8;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+        }
+
+        .mode-button:hover {
+            background-color: #1558b8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>LAPORAN TEORI</h1>
+        <h2>Riska Tul Fadillah Daulay | 202331060</h2>
+        
+        <div class="grid-container"></div>
+        <div class="card">
+            <h3>1. Mengapa menggunakan CSS dan JavaScript dalam pemrograman web?</h3>
+            <button class="toggle-button" onclick="toggleContent(this)">Tampilkan</button>
+            <p>CSS dan JavaScript digunakan dalam pemrograman web karena keduanya berperan penting dalam pembuatan tampilan dan interaktivitas situs web. CSS (Cascading Style Sheets) bertanggung jawab untuk mengatur tata letak, desain, dan estetika halaman web, seperti warna, font, margin, dan pengaturan layout lainnya. JavaScript, di sisi lain, digunakan untuk memberikan interaktivitas, seperti validasi form, animasi, dan manipulasi elemen HTML. Kombinasi keduanya memberikan pengalaman pengguna yang lebih baik dan tampilan yang menarik.</p>
+        </div>
+
+        <div class="card">
+            <h3>2. Bagaimana CSS dan JavaScript dapat diintegrasikan dalam pemrograman web?</h3>
+        <button class="toggle-button" onclick="toggleContent(this)">Tampilkan</button>
+        <p>CSS dan JavaScript dapat diintegrasikan dalam HTML dengan beberapa cara. Untuk CSS, kita bisa menambahkannya langsung di dalam file HTML menggunakan tag , atau dengan menyertakan file CSS eksternal melalui tag . JavaScript dapat disisipkan di dalam tag atau melalui file eksternal dengan. Integrasi ini memungkinkan pemisahan kode untuk pengelolaan yang lebih mudah, mempercepat proses development, dan membuat kode lebih modular.</p>
+        </div>
+
+        <div class="card">
+            <h3>3. Jelaskan apa saja keuntungan menggunakan JavaScipt dan CSS?</h3>
+        <button class="toggle-button" onclick="toggleContent(this)">Tampilkan</button>
+        <p>Keuntungan menggunakan JavaScript dan CSS di antaranya adalah:
+            •	Efisiensi dan pengalaman pengguna: JavaScript membuat halaman web responsif terhadap interaksi pengguna, dan CSS meningkatkan estetika serta tata letak, yang membuat tampilan menjadi menarik dan mudah diakses.
+            •	Cache pada browser: File CSS dan JavaScript eksternal dapat disimpan dalam cache browser, yang mempercepat waktu muat halaman ketika pengguna kembali mengunjungi situs.
+            •	Keteraturan kode: CSS dan JavaScript eksternal membantu dalam menjaga struktur kode yang terorganisir dengan baik, memudahkan pembaruan dan pemeliharaan di masa mendatang.
+            </p>
+        </div>
+        
+        <div class="card">
+            <h3>4. Jealskan apa saja keuntungan menggunakan Bootstrap?</h3>
+            <button class="toggle-button" onclick="toggleContent(this)">Tampilkan</button>
+            <p>Keuntungan menggunakan Bootstrap antara lain:
+                •	Responsif: Bootstrap memungkinkan tampilan web menyesuaikan dengan perangkat (mobile, tablet, desktop) secara otomatis.
+                •	Komponen siap pakai: Bootstrap menyediakan banyak komponen seperti navbar, card, tombol, dan lain-lain yang mudah digunakan.
+                •	Kustomisasi yang mudah: Bootstrap mudah dikustomisasi dan memiliki banyak tema yang bisa langsung diterapkan.
+                •	Kompatibilitas antar-browser: Bootstrap telah diuji agar kompatibel dengan berbagai browser populer.
+                </p>  
+        </div>
+
+        <div class="card">
+            <h3>5. Berikan salah satu contoh penggunaan Bootstrap lalu jelaskan apa fungsinya serta berikan screenshot hasil running di web-nya!</h3>
+            <button class="toggle-button" onclick="toggleContent(this)">Tampilkan</button>
+            <p>Berikut adalah contoh penggunaan Bootstrap untuk membuat tata letak dengan kolom utama dan kolom samping menggunakan sistem grid Bootstrap. Struktur ini sering digunakan untuk menampilkan konten utama dengan kolom samping (sidebar) yang berisi tautan, informasi tambahan, atau navigasi.</p>
+        </div>
+
+        <button class="mode-button" onclick="toggleMessyMode()">Ubah Mode Tampilan</button>
+    </div>
+
+    <script>
+        function toggleContent(element) {
+            const content = element.nextElementSibling;
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        }
+
+        function toggleMessyMode() {
+            document.body.classList.toggle('messy-mode');
+        }
+
+        // Menampilkan semua jawaban pada saat halaman pertama kali dimuat
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll("p").forEach(content => {
+                content.style.display = "none"; // Atur ke "block" jika ingin semua jawaban terbuka saat pertama kali dimuat
+            });
+        });
+    </script>
+
+</body>
+</html>
